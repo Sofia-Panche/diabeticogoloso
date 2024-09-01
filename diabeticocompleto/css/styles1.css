@@ -1,0 +1,173 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: hsl(189, 70%, 41%);
+    padding: 10px 20px;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-info p, .social-links a {
+    margin: 0;
+    color: #333;
+}
+
+.social-links a {
+    margin: 0 5px;
+    color: #333;
+    text-decoration: none;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.nav-left ul li {
+    margin: 0 15px;
+}
+
+.nav-left ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.icons-container a {
+    margin: 0 5px;
+    color: #333;
+    text-decoration: none;
+}
+
+.product-page {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.product-container {
+    display: flex;
+    width: 80%; 
+    background-color: white;
+    padding: 30px; 
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); 
+}
+
+.product-image img {
+    max-width: 70%; 
+    height: auto;
+}
+
+.product-details {
+    margin-left: 30px; 
+    flex: 1;
+}
+
+.product-details h1 {
+    font-size: 36px; 
+    margin-bottom: 15px; 
+    color: hsl(189, 70%, 41%); 
+}
+
+.product-details .price {
+    font-size: 28px; 
+    color: #888;
+    margin-bottom: 15px;
+}
+
+.product-details p {
+    font-size: 18px; 
+    color: hsl(189, 70%, 41%); 
+}
+
+.product-details form {
+    margin-top: 20px; 
+}
+
+.product-details label {
+    display: block;
+    margin: 15px 0 10px; 
+    font-size: 18px;
+}
+
+.product-details input,
+.product-details select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px; 
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.btn-add-to-cart {
+    background-color: #333;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px; 
+}
+
+.btn-add-to-cart:hover {
+    background-color: #555;
+}
+
+.contact-whatsapp a {
+    display: inline-block;
+    margin-top: 15px; 
+    text-decoration: none;
+    color: white;
+    background-color: hsl(189, 70%, 41%); 
+    padding: 12px 25px; 
+    border-radius: 5px;
+    font-size: 18px; 
+}
+
+.contact-whatsapp a:hover {
+    background-color: hsl(189, 70%, 41%); 
+}
+
+
+.btn-add-to-cart:hover {
+    background-color: #555;
+}
+
+.contact-whatsapp a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: #25c4d3;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.contact-whatsapp a:hover {
+    background-color: hsl(189, 70%, 41%);
+}
+
+footer {
+    background-color: hsl(189, 70%, 41%);
+    padding: 10px 20px;
+    text-align: center;
+}
