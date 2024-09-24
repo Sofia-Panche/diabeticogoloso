@@ -1,0 +1,90 @@
+/* Estilos generales para todas las páginas */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #bbfcf5 0%, #00d3f8 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #623d2d;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+form {
+    background-color: #fff4e6;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+}
+
+label {
+    font-size: 1rem;
+    color: #4b3a2f;
+    display: block;
+    margin-bottom: 8px;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #00f4f8;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #00d3f8fa;
+}
+
+.errores {
+    color: #ff6b6b;
+    background-color: #ffe6e6;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    list-style-type: none;
+}
+
+.errores li {
+    margin: 5px 0;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+/* Botón de redirección a otras páginas */
+a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #4b3a2f;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #00f8f4;
+}
